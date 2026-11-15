@@ -251,10 +251,10 @@ body{
   
 }
 
-#sojourneranimation {
+#sojournersection {
   display: grid;
   grid-template-columns: 50% 50%;
-  gap: 20px;
+  gap: 2%;
   align-items: center; 
 }
 
@@ -271,4 +271,14 @@ body{
   border: none;
   display: block;
   aspect-ratio: 4 / 3;
+}
+
+#end{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: rgba(140, 35, 12, 0.75);
+    border: double 0px rgba(180, 60, 30);
+    border-radius: 0px;
 }
